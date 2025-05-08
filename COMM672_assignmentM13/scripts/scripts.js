@@ -9,6 +9,7 @@ $(document).ready(function(){
     })
 })
 // ACCORDIAN //
+// I felt like the original way without the closure made this run smoother, maybe I needed to add something to make it smoother, like the transitions? I thin kI got rid of it in CSS, it didn't seem to add anything but I could be wrong :[ //
 $(document).ready(function() {
     $('.accordion-header').click(function() {
         if ($(this).next('.accordion-content').is(':visible')) {
